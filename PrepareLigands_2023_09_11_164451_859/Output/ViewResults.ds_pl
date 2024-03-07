@@ -1,0 +1,15 @@
+#!/usr/bin/perl
+use MdmDiscoveryScript;
+use DSScript;
+
+my $document = DiscoveryScript::Open({"Path" => "588.sd", "LoadAllObjects" => False});
+use MdmDiscoveryScript;
+use DSScript;
+
+my $hashargs = { message => "<strong>Prepare Ligands</strong><BR>Input ligands: 262<BR>Ligands created: 907<BR>Ligands rejected: 6",
+ details => "<html>Input ligands: 262<BR>Ligands created: 907<BR>Ligands rejected: 6</html>
+",
+ error => "",
+ ignore => "Protocol MessageBox: Prepare Ligands" };
+use MdmCommands;
+MdmCommands::DSReportMessageBox($hashargs);
