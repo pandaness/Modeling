@@ -1,0 +1,11 @@
+[2023-09-11 16:44:52] ------------------------------------
+[2023-09-11 16:44:52] Protocol Name = 'Prepare Ligands'
+[2023-09-11 16:44:52] User Name = '13640'
+[2023-09-11 16:44:52] Run ID = '92CF789E-E060-4BF8-986D-3A11EF679974'
+[2023-09-11 16:44:52] Client message: 'Prepare Ligands: 588'
+[2023-09-11 16:45:43] Client message: 'Preparing confgen.'
+[2023-09-11 16:45:43] Client message: 'Running confgen.'
+[2023-09-11 16:45:43] Started running 'confgen'
+[2023-09-11 16:47:34] Finished running 'confgen'
+[2023-09-11 16:47:35] Client message: '588: 907 ligands created'
+[2023-09-11 16:47:35] Final message: '588: 907 ligands created'
